@@ -39,6 +39,6 @@ int yywrap()
 //save: exp7.l
 ptional: cd Desktop/SPCC
 sudo apt install flex
-lex exp7.l
+lex exp7.l or flex exp7.l
 gcc lex.yy.c -o exp7 -lfl
 ./exp7
