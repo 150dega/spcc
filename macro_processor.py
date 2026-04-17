@@ -42,7 +42,7 @@ for name, index in MNT.items():
 print("\nMacro Definition Table (MDT):")
 for i, definition in enumerate(MDT):
     print(f"{i}: {definition}")
-//macro_processor.py
-//Run
-//cd Desktop
-//python3 macro_processor.py
+#macro_processor.py
+#Run
+#cd Desktop
+#python3 macro_processor.py
