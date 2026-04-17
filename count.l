@@ -39,5 +39,5 @@ int yywrap()
 //save: exp7.l
 cd Desktop/SPCC
 lex exp7.l
-gcc lex.yy.c -o exp7 -ll
+gcc lex.yy.c -o exp7 -lfl
 ./exp7
