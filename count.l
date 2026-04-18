@@ -42,3 +42,14 @@ sudo apt install flex
 lex exp7.l or flex exp7.l
 gcc lex.yy.c -o exp7 -lfl
 ./exp7
+if not flex available 
+TO RUN CODE:
+1. Install tools (only once)
+sudo apt update
+sudo apt install flex bison gcc
+
+2. yacc -d exp8.y
+flex exp8.l
+gcc lex.yy.c y.tab.c -o expr -ll
+./expr
+
