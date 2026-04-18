@@ -58,3 +58,22 @@ void yyerror(char *s)
 //gcc y.tab.c lex.yy.c -o exp8 -lfl
 //./exp8
 //input: 10+20*3
+//if not running 
+TO RUN CODE:
+1. Install tools (only once)
+sudo apt update
+sudo apt install flex bison gcc
+
+2. yacc -d exp8.y
+flex exp8.l
+gcc lex.yy.c y.tab.c -o expr -ll
+./expr
+
+3. Enter Expression:
+5+3*2
+Valid Expression
+
+OR
+
+5+*2
+Invalid Expression
